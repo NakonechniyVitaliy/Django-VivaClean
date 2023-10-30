@@ -1,0 +1,26 @@
+{% extends '_layouts/base.html' %}
+{% load static %}
+
+{% block portfolio %}
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="{% static 'img/logo_icon.ico' %}">
+    <link rel="stylesheet" type="text/css" href="D:\Programm\PYcharm\Cleaning_2_0\style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+    <p class="text5">Свіжі фото наших робіт</p>
+<div class="photo">
+        <img src="{% static 'img/do_1.jpg' %}" >
+        <img src="{% static 'img/do_2.jpg' %}" >
+        <img  src="{% static 'img/do_3.jpg' %}" >
+        <img  src="{% static 'img/posle_1.jpg' %}" >
+        <img  src="{% static 'img/posle_2.jpg' %}" >
+        <img  src="{% static 'img/posle_3.jpg' %}" >
+</div>
+<div class="portfolio_pre_footer"></div>
+{% endblock portfolio %}
