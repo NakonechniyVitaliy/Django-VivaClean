@@ -1,0 +1,273 @@
+{% extends '_layouts/base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+<nav class="navbar navbar-expand-lg navbar-light">
+  <img src="{% static 'img/logo.png' %}" class="navbar-brand">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#Home" id="Home">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#About us">About us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Our services">Our services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#How we work?">How we work?</a>
+      </li>
+    </ul>
+    <a class="btn btn-outline-success my-2 my-sm-0" href="#contact us" type="submit">CONTACT US</a>
+  </div>
+</nav>
+
+
+
+
+
+<div class="container gant">
+  <div class="container gant-in">
+    <h1 class="gant-in-h1">UBODY - The ideal path
+      to the ideal body
+    </h1>
+    <h2 class="gant-in-h2">We will help you achieve exactly
+      the shape you want. Training programs, consultations,
+      nutrition programs - we will help you with everything!
+    </h2>
+
+  </div>
+  <div class="container gant-in gant-in-2">
+    <img src="{% static 'img/gant.png' %}" class="gant-img">
+  </div>
+</div>
+
+
+
+<div class="hl" style="margin-top:3vw;">
+    <h1 class="title" id="About us">
+        ABOUT US
+    </h1>
+</div>
+
+
+
+<div class="about">
+  <div class="container about-in about-in-1">
+      <h1 class="about-h1">
+        We are a company that helps people <br>create a body they can be proud of.
+      </h1>
+      <ul class="about-ul">
+        <li>Preparation of diets, nutrition, compliance with daily norms of protein, fats, carbohydrates</li>
+        <li>we will create the best training program for you in the gym, at home, on the street, taking into account every parameter of your body</li>
+        <li>Our specialists will always be in touch with you to help you with problems that may arise.</li>
+      </ul>
+  </div>
+  <div class="container about-in about-in-2">
+    <iframe width="560" height="315" class='video' src="https://www.youtube.com/embed/vh3fMl89bzk?si=u83jVfohl7LDlxWj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+</div>
+
+
+<div class="hl">
+    <h1 class="title" id="Our services">
+        OUR SERVICES
+    </h1>
+</div>
+
+
+
+
+<div class="services">
+  <div class="card element-animation">
+    <img class="card-img-top" src="{% static 'img/1.png' %}" alt="Card image cap">
+    <div class="card-body">
+      <p class="card-text"><b>HALL 3 MONTH! MORE NEW!</b><br><br>
+      Training program for men in the gym for 3 months at once!.
+      Designed to work out the entire body using a split system</p>
+    </div>
+  </div>
+
+  <div class="card element-animation-2">
+    <img class="card-img-top" src="{% static 'img/2.png' %}" alt="Card image cap">
+    <div class="card-body">
+      <p class="card-text"><b>Program for home</b><br><br>
+      Training program for girls at home.
+      Can be done at any time! 20-30 minutes a day</p>
+    </div>
+  </div>
+
+  <div class="card element-animation-3">
+    <img class="card-img-top" src="{% static 'img/3.png' %}" alt="Card image cap">
+    <div class="card-body">
+      <p class="card-text"><b>2 PROGRAMS + MENU</b><br><br>
+      For the price of one! Horizontal bars and parallel bars +
+      DUMBBELLS + MENU for gaining muscle mass!</p>
+    </div>
+  </div>
+
+  <div class="card element-animation-4">
+    <img class="card-img-top" src="{% static 'img/4.png' %}" alt="Card image cap">
+    <div class="card-body">
+      <p class="card-text"><b>3 months for home!</b><br><br>
+      3 months of training for girls at home!
+      It's hard, but it's worth it!</p>
+    </div>
+</div>
+</div>
+
+
+
+<div class="hl">
+   <h2 class="title" id="How we work?">
+    HOW WE WORK?
+</h2>
+</div>
+
+
+
+
+<div class="how">
+    <div class="how-in how-text element-animation" style="margin-left:2vw;">
+        <h1 class="how-in-h1">
+            You contact us, indicate your body parameters and what you want to achieve
+        </h1>
+    </div>
+    <div class="how-in arrow-in element-animation-2">
+        <img class="arrow" src="{% static 'img/arrow.png' %}" alt="arrow">
+    </div>
+    <div class="how-in how-text element-animation-3">
+        <h1 class="how-in-h1" style="margin-top:2vw !important">
+            We create a training and nutrition program for you personally according to your request, taking into account all the parameters of your body!
+        </h1>
+
+    </div>
+    <div class="how-in arrow-in element-animation-4">
+        <img class="arrow" src="{% static 'img/arrow_2.png' %}" alt="arrow">
+
+    </div>
+    <div class="how-in how-text element-animation-5">
+        <h1 class="how-in-h1">
+             You progress with our instructions and specialists in touch
+        </h1>
+
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container feedback">
+    <h1 class="title" style="margin-top:3vw !important;" id="contact us">CONTACT US</h1>
+	<div class="row input-container">
+			<div class="col-xs-12">
+				<div class="styled-input wide">
+					<input type="text" required />
+					<label>Name</label>
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<div class="styled-input">
+					<input type="text" required />
+					<label>Email</label>
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<div class="styled-input" style="float:right;">
+					<input type="text" required />
+					<label>Phone Number</label>
+				</div>
+			</div>
+			<div class="col-xs-12">
+				<div class="styled-input wide">
+					<textarea required></textarea>
+					<label>Message</label>
+				</div>
+			</div>
+			<div class="col-xs-12">
+				<div class="btn-lrg submit-btn form-button">Send Message</div>
+			</div>
+	</div>
+</div>
+
+
+
+<div class="footer-area footer-padding">
+           <div class="container" >
+               <div class="row d-flex justify-content-between" >
+                   <div class="col-xl-3 col-lg-3 col-md-5 col-sm-6" >
+                      <div class="single-footer-caption mb-50" style="margin-top:3vw;">
+                        <div class="single-footer-caption mb-30">
+                             <!-- logo -->
+                            <div class="footer-logo">
+                                <a  href="index.html"><img src="{% static 'img/logo.png' %}" alt="" style="width:140px;" class="logo-footer"></a>
+                            </div>
+                            <div class="footer-tittle">
+                                <div class="footer-pera">
+                                    <p class="footer-text">Your ideal path to an ideal body</p>
+                               </div>
+                            </div>
+                        </div>
+                      </div>
+                   </div>
+                   <div class="col-xl-3 col-lg-3 col-md-5 col-sm-7">
+                       <div class="single-footer-caption mb-50">
+                           <div class="footer-tittle">
+                               <h4 style="margin-top:2vw;" class="footer-text">We are in social networks</h4>
+                                <a style="color:white;" class="footer-text">We love our subscribers on social networks and always delight them with interesting contests</a>
+                               <div class="col-xl-5 col-lg-5 col-md-5">
+                    <div class="footer-copy-right f-right">
+                        <!-- social -->
+                        <div class="footer-social">
+                            <a href="#"><i class="fa fa-instagram icons" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-facebook-official icons" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-twitter icons" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+               <!-- Footer bottom -->
+               <div class="row">
+                <div class="col-xl-7 col-lg-7 col-md-7">
+                    <div class="footer-copy-right footer-text">
+                        © «UBODY» 2022-2023</div>
+                </div>
+            </div>
+           </div>
+       </div>
+
+
+
+
+
+<script src="{% static 'js/animation.js' %}"></script>
+<script src="{% static 'js/animation-2.js' %}"></script>
+<script src="{% static 'js/animation-3.js' %}"></script>
+<script src="{% static 'js/animation-4.js' %}"></script>
+<script src="{% static 'js/animation-5.js' %}"></script>
+{% endblock content %}
